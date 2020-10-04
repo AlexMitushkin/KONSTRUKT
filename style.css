@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  /* font-family: sans-serif; */
+}
+#header {
+  background: url(./IMG/header.png);
+  width: 1438px;
+  height: 769px;
+  background-size: 100%;
+}
+.name {
+  color: white;
+  font-size: 16px;
+  margin-left: 628px;
+  padding: 45px;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-left: 187px;
+  padding: 223px;
+}
+h3 {
+  color: white;
+  font-size: 16px;
+  margin-left: 526px;
+  margin-top: -259px;
+}
+h4 {
+  color: white;
+  font-size: 16px;
+  margin-left: 659px;
+  margin-top: 216px;
+}
