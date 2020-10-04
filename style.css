@@ -2,33 +2,46 @@ body {
   margin: 0;
   /* font-family: sans-serif; */
 }
-#header {
-  background: url(./IMG/header.png);
-  width: 1438px;
-  height: 769px;
-  background-size: 100%;
+* {
+  box-sizing: border-box;
 }
-.name {
-  color: white;
-  font-size: 16px;
-  margin-left: 628px;
-  padding: 45px;
-}
-h1 {
-  color: white;
-  font-size: 50px;
-  margin-left: 187px;
-  padding: 223px;
+.container {
+  background: url(./IMG/header.png) center no-repeat;
+  width: 100%;
+  max-width: 2275px;
+  height: 1221px;
+  margin: 0;
 }
 h3 {
+  font-size: 30px;
   color: white;
-  font-size: 16px;
-  margin-left: 526px;
-  margin-top: -259px;
+  letter-spacing: 0;
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 70px;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+  letter-spacing: 0;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 590px;
+}
+h2 {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0;
+  position: absolute;
+  margin-left: 914px;
+  margin-top: 666px;
 }
 h4 {
+  font-size: 20px;
   color: white;
-  font-size: 16px;
-  margin-left: 659px;
-  margin-top: 216px;
+  letter-spacing: 0;
+  position: absolute;
+  margin-left: 1053px;
+  margin-top: 1070px;
+  letter-spacing: 3px;
 }
